@@ -24,3 +24,57 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* my solution */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.footer {
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-links,
+.left-links {
+  gap: 1em;
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex: 1; /*dont forget to use flex  */
+  gap: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 8px 16px;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
+ul {
+  list-style-type: none;
+}
+ 
+/*ul is a better selector instead of right and left link, pay attention */
+
+li a {
+  color: gray;
+  text-decoration: none;
+}
