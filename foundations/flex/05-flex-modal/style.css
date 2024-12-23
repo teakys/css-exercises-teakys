@@ -9,7 +9,7 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
+  /* I'll give you this one for free */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,4 +66,27 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.modal {
+  display: flex;
+  padding: 16px;
+  gap: 16px;
+}
+
+.icon {
+  flex-shrink: 0;
+}
+
+.header {
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  align-items: center;
+  font-size: 18px;
+}
+
+.text {
+  margin-bottom: 8px;
 }
